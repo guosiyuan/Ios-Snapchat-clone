@@ -10,7 +10,20 @@ import Foundation
 import UIKit
 
 // This is the only line of code you should be modifying
-var threads: [String: [UIImage]] = ["Memes": [], "Dog Spots": [], "Random": []]
+class Post{
+    
+    var Img: UIImage?
+    var Poster: String?
+    var PostTime: Date?
+    var Viewed: Bool?
+    init (img:UIImage, poster: String, postTime: Date, viewed: Bool){
+        self.Img = img
+        self.Poster = poster
+        self.PostTime = postTime
+        self.Viewed = viewed
+    }
+}
+var threads: [Int: [Post]] = [0: [], 1: [], 2: []]
 //
 
 let threadNames = ["Memes", "Dog Spots", "Random"]

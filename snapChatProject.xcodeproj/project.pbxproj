@@ -17,6 +17,11 @@
 		4196F2DD1E650ECA009916E4 /* ImageFeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4196F2DC1E650ECA009916E4 /* ImageFeed.swift */; };
 		4196F2E31E6514EE009916E4 /* ImagePickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4196F2E21E6514EE009916E4 /* ImagePickerController.swift */; };
 		4196F2ED1E6609B0009916E4 /* PostNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4196F2EC1E6609B0009916E4 /* PostNavigationController.swift */; };
+		630CD5261E7909B9001F6D65 /* SeePostController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630CD5251E7909B9001F6D65 /* SeePostController.swift */; };
+		630CD5281E7909E5001F6D65 /* SeePostViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630CD5271E7909E5001F6D65 /* SeePostViewCell.swift */; };
+		630CD52A1E79180A001F6D65 /* PictViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630CD5291E79180A001F6D65 /* PictViewer.swift */; };
+		6395124F1E77D6B200265DBE /* MyFirstTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6395124E1E77D6B200265DBE /* MyFirstTableViewCell.swift */; };
+		639512511E77D8B800265DBE /* MyPostPictureController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639512501E77D8B800265DBE /* MyPostPictureController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +37,11 @@
 		4196F2DC1E650ECA009916E4 /* ImageFeed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageFeed.swift; sourceTree = "<group>"; };
 		4196F2E21E6514EE009916E4 /* ImagePickerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePickerController.swift; sourceTree = "<group>"; };
 		4196F2EC1E6609B0009916E4 /* PostNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostNavigationController.swift; sourceTree = "<group>"; };
+		630CD5251E7909B9001F6D65 /* SeePostController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeePostController.swift; sourceTree = "<group>"; };
+		630CD5271E7909E5001F6D65 /* SeePostViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeePostViewCell.swift; sourceTree = "<group>"; };
+		630CD5291E79180A001F6D65 /* PictViewer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PictViewer.swift; sourceTree = "<group>"; };
+		6395124E1E77D6B200265DBE /* MyFirstTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyFirstTableViewCell.swift; sourceTree = "<group>"; };
+		639512501E77D8B800265DBE /* MyPostPictureController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyPostPictureController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +75,8 @@
 		417986CE1E6657650050E1DF /* Cells */ = {
 			isa = PBXGroup;
 			children = (
+				630CD5271E7909E5001F6D65 /* SeePostViewCell.swift */,
+				6395124E1E77D6B200265DBE /* MyFirstTableViewCell.swift */,
 				417986C81E664AE40050E1DF /* imageCollectionVieCell.swift */,
 			);
 			name = Cells;
@@ -73,6 +85,9 @@
 		417986CF1E6657910050E1DF /* View Controller */ = {
 			isa = PBXGroup;
 			children = (
+				630CD5291E79180A001F6D65 /* PictViewer.swift */,
+				630CD5251E7909B9001F6D65 /* SeePostController.swift */,
+				639512501E77D8B800265DBE /* MyPostPictureController.swift */,
 				417986C41E6632C40050E1DF /* TabBarController.swift */,
 				4196F2EC1E6609B0009916E4 /* PostNavigationController.swift */,
 				417986CE1E6657650050E1DF /* Cells */,
@@ -184,11 +199,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				417986CB1E664CB60050E1DF /* ImageFlowLayout.swift in Sources */,
+				630CD5281E7909E5001F6D65 /* SeePostViewCell.swift in Sources */,
 				4196F2E31E6514EE009916E4 /* ImagePickerController.swift in Sources */,
+				639512511E77D8B800265DBE /* MyPostPictureController.swift in Sources */,
+				630CD5261E7909B9001F6D65 /* SeePostController.swift in Sources */,
 				417986C51E6632C40050E1DF /* TabBarController.swift in Sources */,
 				417986C91E664AE40050E1DF /* imageCollectionVieCell.swift in Sources */,
 				4196F2DD1E650ECA009916E4 /* ImageFeed.swift in Sources */,
 				4196F2CB1E6509E8009916E4 /* AppDelegate.swift in Sources */,
+				630CD52A1E79180A001F6D65 /* PictViewer.swift in Sources */,
+				6395124F1E77D6B200265DBE /* MyFirstTableViewCell.swift in Sources */,
 				4196F2ED1E6609B0009916E4 /* PostNavigationController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
